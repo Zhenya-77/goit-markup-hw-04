@@ -31,6 +31,8 @@ h6 {
 /* Хедер */
 .header-section {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-box {
@@ -50,13 +52,14 @@ h6 {
 }
 
 .navigation-title {
+  position: relative;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #404bbf;
   margin-right: 76px;
 }
 .studio-color {
@@ -102,10 +105,19 @@ h6 {
 /* Секція 1 */
 .section-first {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office1.jpg);
   padding: 188px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .section-title {
   max-width: 496px;
@@ -134,6 +146,7 @@ h6 {
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-first-button:hover,
 .section-first-button:focus {

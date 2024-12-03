@@ -52,14 +52,13 @@ h6 {
 }
 
 .navigation-title {
-  position: relative;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #404bbf;
+  color: #4d5ae5;
   margin-right: 76px;
 }
 .studio-color {
@@ -154,6 +153,17 @@ h6 {
   cursor: pointer;
 }
 /* Секція 2 */
+
+.section-second-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 
 .visually-hidden {
   position: absolute;
